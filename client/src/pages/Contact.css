@@ -1,0 +1,15 @@
+.map {
+  margin-top: 20px;
+}
+
+.addr {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.infocrd {
+  margin-top: 20px;
+  background-color: #343a40;
+  color: #ffffff;
+  height: 350px;
+  opacity: 85%;
+}

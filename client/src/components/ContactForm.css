@@ -1,0 +1,12 @@
+.form {
+  margin-top: 20px;
+  background-color: #343a40;
+  color: #ffffff;
+  opacity: 93%;
+  padding: 10px;
+}
+
+.input {
+  color: black;
+  font-style: italic;
+}

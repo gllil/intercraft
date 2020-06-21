@@ -1,0 +1,41 @@
+import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import Maps from "../components/Maps";
+import "./Contact.css";
+import ContactForm from "../components/ContactForm";
+
+function Contact() {
+  return (
+    <Container>
+      <Row className="text-center">
+        <Col>
+          <Card className="text-center infocrd ">
+            <Card.Body className="addr">
+              <Card.Title>
+                <i className="fas fa-map-marked-alt fa-3x"></i>
+              </Card.Title>
+              <div className="text-left">
+                <strong>Address: </strong>
+                <p>
+                  11245 S Orange Blossom Trail #306 <br /> Orlando, FL 32837
+                </p>
+                <strong>Phone: </strong>
+                <p>(407) 300-5441</p>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="map">
+          <Maps />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ContactForm />
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default Contact;

@@ -1,0 +1,9 @@
+{
+  "short_name": "inter craft app",
+  "name": "inter craft upholstery app",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
