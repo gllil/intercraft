@@ -8,7 +8,7 @@ function Contact() {
   return (
     <Container>
       <Row className="text-center">
-        <Col>
+        <Col md={6} sm={12}>
           <Card className="text-center infocrd ">
             <Card.Body className="addr">
               <Card.Title>
@@ -25,7 +25,7 @@ function Contact() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="map">
+        <Col md={6} sm={12} className="map">
           <Maps />
         </Col>
       </Row>

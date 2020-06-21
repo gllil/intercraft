@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Row, Col, Button, Modal } from "react-bootstrap";
+import { Form, Row, Col, Button, Modal, Spinner } from "react-bootstrap";
 import "./ContactForm.css";
 import axios from "axios";
 
@@ -12,6 +12,7 @@ function ContactForm() {
   });
   const [show, setShow] = useState(false);
   const [validated, setValidated] = useState(false);
+  const [load, setLoad] = useState(false);
 
   const handleClose = () => {
     setShow(false);
@@ -29,6 +30,7 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     const formVal = e.currentTarget;
+    setLoad(true);
 
     if (formVal.checkValidity() === false) {
       e.preventDefault();
@@ -40,6 +42,7 @@ function ContactForm() {
     axios.post("/api/email", form).then(() => {
       setValidated(true);
       setShow(true);
+      setLoad(false);
     });
   }
 
@@ -95,6 +98,11 @@ function ContactForm() {
         <Button type="submit" variant="secondary">
           Send Request <i className="fas fa-paper-plane"></i>
         </Button>
+        <Modal show={load}>
+          <Spinner animation="border" role="status">
+            <span className="sr-only">Loading...</span>
+          </Spinner>
+        </Modal>
       </Form>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

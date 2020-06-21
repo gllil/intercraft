@@ -1,6 +1,9 @@
 .wrapper {
-  background-image: url(./assets/images/seat-cushion-1099616_1920.jpg);
+  background-image: url(./assets/images/seat-cushion-1099616_1920-min.jpg);
   background-repeat: no-repeat;
-  height: 150vh;
-  background: cover;
+  background-size: cover;
+  height: 200vh;
+  background-attachment: fixed;
+  margin-top: 56px;
+  background-position: center;
 }

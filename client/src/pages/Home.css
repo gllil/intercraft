@@ -3,6 +3,8 @@
   background-color: #343a40;
   color: #ffffff;
   opacity: 85%;
+  position: relative;
+  top: 15px;
 }
 
 .btn {
@@ -18,9 +20,10 @@
   margin-top: 20px;
   background-color: #343a40;
   color: #ffffff;
-  min-height: 150px;
+  min-height: 200px;
   max-height: 200px;
   opacity: 85%;
+  position: relative;
 }
 
 .icn {
@@ -33,4 +36,9 @@
   border-radius: 10px;
   padding: 10px;
   opacity: 85%;
+  margin: 15px;
 }
+
+/* .home-wrapper {
+  margin-top: 56px;
+} */
