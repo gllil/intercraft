@@ -44,9 +44,9 @@ app.post("/api/email", (req, res) => {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"InterCraft Upholstery" <xaintercraft@hotmail.com>', // sender address
-      to: "xaintercraft@hotmail.com", // list of receivers
-      subject: "New quote request from your website", // Subject line
+      from: '"InterCraft Upholstery" <garyjllil@outlook.com>', // sender address
+      to: "itasghar786@gmail.com", // list of receivers
+      subject: "New quote request", // Subject line
       text: null,
       html: output, // html body
     });

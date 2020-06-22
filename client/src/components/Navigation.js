@@ -14,7 +14,7 @@ function Navigation() {
               Services
             </Nav.Link>
             <Nav.Link className="navlink" href="/contact">
-              Get A Qoute
+              Get A Quote
             </Nav.Link>
           </Nav>
           <Nav className="justify-content-end">
