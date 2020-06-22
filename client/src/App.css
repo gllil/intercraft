@@ -2,8 +2,8 @@
   background-image: url(./assets/images/seat-cushion-1099616_1920-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
   background-attachment: fixed;
   margin-top: 56px;
-  background-position: center;
+  background-position: center center;
+  background-color: #464646;
 }

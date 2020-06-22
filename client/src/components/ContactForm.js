@@ -12,7 +12,9 @@ function ContactForm() {
   });
   const [show, setShow] = useState(false);
   const [validated, setValidated] = useState(false);
-  const [load, setLoad] = useState(false);
+  const [showLoad, setShowLoad] = useState({
+    attr: "none",
+  });
 
   const handleClose = () => {
     setShow(false);
@@ -23,14 +25,13 @@ function ContactForm() {
 
   function handleForm(e) {
     const { dataset, value } = e.target;
-    console.log(dataset, value);
     setForm({ ...form, [dataset.property]: value });
   }
 
   function handleSubmit(e) {
     e.preventDefault();
+    setShowLoad({ attr: "block" });
     const formVal = e.currentTarget;
-    setLoad(true);
 
     if (formVal.checkValidity() === false) {
       e.preventDefault();
@@ -42,7 +43,7 @@ function ContactForm() {
     axios.post("/api/email", form).then(() => {
       setValidated(true);
       setShow(true);
-      setLoad(false);
+      setShowLoad({ attr: "none" });
     });
   }
 
@@ -98,11 +99,13 @@ function ContactForm() {
         <Button type="submit" variant="secondary">
           Send Request <i className="fas fa-paper-plane"></i>
         </Button>
-        <Modal show={load}>
-          <Spinner animation="border" role="status">
-            <span className="sr-only">Loading...</span>
-          </Spinner>
-        </Modal>
+        <Spinner
+          style={{ display: showLoad.attr }}
+          animation="border"
+          role="status"
+        >
+          <span className="sr-only">Loading...</span>
+        </Spinner>
       </Form>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
