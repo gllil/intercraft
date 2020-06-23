@@ -9,7 +9,7 @@ function Services() {
         <Col className="services-title">
           <h2>Services</h2>
           <p>
-            InterCraft Auto Upholstery is the best choice in Orlando,Kissimmee
+            InterCraft Auto Upholstery is the best choice in Orlando/Kissimmee
             area for auto upholstery services. Over the last 20 years, we've
             provided thousands of satisfied clients throughout the surrounding
             cities as well as across the globe with superior auto upholstery
@@ -93,7 +93,7 @@ function Services() {
             multi-million dollar classic Ferrari or a modern Mercedes Benz, our
             team of auto interior specialists has the experience, knowledge, and
             skill to return your vehicle's interior to stock condition or
-            provide a custom-designed interior to complement your vehicleâ€™s
+            provide a custom-designed interior to complement your vehicle's
             shape and style. We provide comprehensive auto interior restoration
             from car seat replacement to new upholstery, and we always use
             materials that are authentic to your car's character for a timeless
