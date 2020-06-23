@@ -5,7 +5,7 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-      <Container fluid>
+      <Container>
         <Navbar.Brand href="/">InterCraft Upholstery</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
