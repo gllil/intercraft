@@ -7,20 +7,41 @@
   margin: 15px;
 }
 
-.services-list {
+.services-list-one {
   margin-top: 10px;
   background-color: #343a40;
-  color: #ffffff;
-  opacity: 85%;
+  background-image: url(../../assets/images/IMG_7019.jpg);
+  color: #343a40;
+
   font-size: 18pt;
   border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.services-list-two {
+  margin-top: 10px;
+  background-color: #343a40;
+  background-image: url(../../assets/images/IMG_7016.jpg);
+  color: #343a40;
+
+  font-size: 18pt;
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .list-item {
   margin: 20px;
-  background-color: #343a40;
-  color: #ffffff;
-  opacity: 85%;
+  color: #e88125;
   font-size: 18pt;
+  text-shadow: 2px 2px black;
 
   padding: 10px 0px;
+}
+.customer {
+  margin-top: 50%;
+}
+.desk {
+  margin-top: 50%;
 }

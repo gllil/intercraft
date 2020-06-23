@@ -25,50 +25,61 @@ function Services() {
         </Col>
       </Row>
 
-      <ul className="services-list">
-        <li className="list-item" variant="dark">
-          <strong>Leather Interiors</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Carpet Interiors</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Vinyl Interiors</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Suede Alcantara Interiors</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Stitch Work</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Side Door Panels</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Factory Tops</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Aftermarket Tops</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Convertible Top Replacement</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Headliner Replacement</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Customer Headliner Design</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Car Seat Upholstery Repair</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Car Seat Cushion Replacement</strong>
-        </li>
-        <li className="list-item" variant="dark">
-          <strong>Cut & Sewn Auto Carpet</strong>
-        </li>
-      </ul>
+      <Row>
+        <Col>
+          <ul className="services-list-one">
+            <li className="list-item" variant="dark">
+              <strong>Leather Interiors</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Carpet Interiors</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Vinyl Interiors</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Suede Alcantara Interiors</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Stitch Work</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Side Door Panels</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Factory Tops</strong>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ul className="services-list-two">
+            <li className="list-item" variant="dark">
+              <strong>Aftermarket Tops</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Convertible Top Replacement</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Headliner Replacement</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Customer Headliner Design</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Car Seat Upholstery Repair</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Car Seat Cushion Replacement</strong>
+            </li>
+            <li className="list-item" variant="dark">
+              <strong>Cut & Sewn Auto Carpet</strong>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+
       <Row className="text-center">
         <Col className="services-title">
           <h2>Specialty Vehicles</h2>
