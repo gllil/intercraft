@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Maps from "../components/Maps";
+import Maps from "../../components/Maps";
 import "./Contact.css";
-import ContactForm from "../components/ContactForm";
+import ContactForm from "../../components/ContactForm";
 
 function Contact() {
   return (
