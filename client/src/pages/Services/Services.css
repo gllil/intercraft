@@ -15,9 +15,9 @@
 
   font-size: 18pt;
   border-radius: 10px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center center;
 }
 .services-list-two {
   margin-top: 10px;
@@ -27,9 +27,9 @@
 
   font-size: 18pt;
   border-radius: 10px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center center;
 }
 .list-item {
   margin: 20px;
