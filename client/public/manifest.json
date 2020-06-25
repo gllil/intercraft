@@ -1,6 +1,6 @@
 {
-  "short_name": "inter craft app",
-  "name": "inter craft upholstery app",
+  "short_name": "InterCraft",
+  "name": "InterCraft Upholstery",
 
   "start_url": ".",
   "display": "standalone",

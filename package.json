@@ -1,7 +1,7 @@
 {
-  "name": "inter-craft",
+  "name": "InterCraft",
   "version": "1.0.0",
-  "description": "intercraft upholstery",
+  "description": "InterCraft Upholstery",
   "engines": {
     "node": "^12.13.0",
     "npm": "^6.12.0"
