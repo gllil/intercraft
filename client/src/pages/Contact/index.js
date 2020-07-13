@@ -21,11 +21,6 @@ function Contact() {
                 </p>
                 <strong>Phone: </strong>
                 <p>(407) 300-5441</p>
-                <strong>Hours: </strong>
-                <p>
-                  Monday - Friday <em>8:00AM-6:00PM</em> <br />
-                  Saturday <em>9:30AM-1:30PM </em> Sunday <em>Closed</em>
-                </p>
               </div>
             </Card.Body>
           </Card>
