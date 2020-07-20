@@ -9,9 +9,12 @@
 
 .services-list-one {
   margin-top: 10px;
-  background-color: #343a40;
-  background-image: url(../../assets/images/IMG_7019.jpg);
-  color: #343a40;
+  background-image: linear-gradient(
+      to right,
+      rgba(5, 5, 5, 1),
+      rgba(5, 5, 5, 0)
+    ),
+    url(../../assets/images/IMG_7019.jpg);
 
   font-size: 18pt;
   border-radius: 10px;
@@ -21,9 +24,12 @@
 }
 .services-list-two {
   margin-top: 10px;
-  background-color: #343a40;
-  background-image: url(../../assets/images/IMG_7016.jpg);
-  color: #343a40;
+  background-image: linear-gradient(
+      to right,
+      rgba(5, 5, 5, 1),
+      rgba(5, 5, 5, 0)
+    ),
+    url(../../assets/images/IMG_7016.jpg);
 
   font-size: 18pt;
   border-radius: 10px;
@@ -33,10 +39,8 @@
 }
 .list-item {
   margin: 20px;
-  color: #e88125;
+  color: #ffffff;
   font-size: 18pt;
-  text-shadow: 2px 2px black;
-
   padding: 10px 0px;
 }
 .customer {
