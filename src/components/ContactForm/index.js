@@ -32,19 +32,19 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     setShowLoad({ attr: "block" });
-    // const formVal = e.currentTarget;
+    const formVal = e.currentTarget;
 
-    // if (formVal.checkValidity() === false) {
-    //   e.preventDefault();
-    //   e.stopPropagation();
-    // }
+    if (formVal.checkValidity() === false) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
 
     const contactEmail = functions.httpsCallable("contactEmail");
 
     contactEmail(form).then((res) => {
-      // setValidated(true);
-      // setShow(true);
-      // setShowLoad({ attr: "none" });
+      setValidated(true);
+      setShow(true);
+      setShowLoad({ attr: "none" });
     });
   }
 
