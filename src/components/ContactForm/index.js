@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { functions } from "../../firebase/config";
 import { Form, Row, Col, Button, Modal, Spinner } from "react-bootstrap";
+
 import "./ContactForm.css";
-import axios from "axios";
 
 function ContactForm() {
   const [form, setForm] = useState({
@@ -31,19 +32,19 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     setShowLoad({ attr: "block" });
-    const formVal = e.currentTarget;
+    // const formVal = e.currentTarget;
 
-    if (formVal.checkValidity() === false) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
+    // if (formVal.checkValidity() === false) {
+    //   e.preventDefault();
+    //   e.stopPropagation();
+    // }
 
-    console.log(form);
+    const contactEmail = functions.httpsCallable("contactEmail");
 
-    axios.post("/api/email", form).then(() => {
-      setValidated(true);
-      setShow(true);
-      setShowLoad({ attr: "none" });
+    contactEmail(form).then((res) => {
+      // setValidated(true);
+      // setShow(true);
+      // setShowLoad({ attr: "none" });
     });
   }
 
