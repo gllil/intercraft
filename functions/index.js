@@ -23,7 +23,7 @@ exports.contactEmail = functions.https.onCall((data, context) => {
       port: 587,
       secure: false,
       auth: {
-        user: "xaintercraft@hotmail.com", // generated ethereal user
+        user: "garyjllil@outlook.com", // generated ethereal user
         pass: "secret", // generated ethereal password
       },
     });
@@ -31,7 +31,7 @@ exports.contactEmail = functions.https.onCall((data, context) => {
     // send mail with defined transport object
     let info = await transporter.sendMail({
       from: '"InterCraft Upholstery" <garyjllil@outlook.com>', // sender address
-      to: "garyjllil@gmail.com", // list of receivers
+      to: "xaintercraft@hotmail.com", // list of receivers
       subject: "New quote request", // Subject line
       text: null,
       html: output, // html body
