@@ -24,7 +24,7 @@ exports.contactEmail = functions.https.onCall((data, context) => {
       secure: false,
       auth: {
         user: "garyjllil@outlook.com", // generated ethereal user
-        pass: "secret", // generated ethereal password
+        pass: "password", // generated ethereal password
       },
     });
 
