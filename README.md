@@ -6,7 +6,7 @@ Website for an auto upholstery conpany with a contact form. Used React to create
 
 # Link
 
-https://intercraftupholstery.com/
+https://intercraft-81c8a.web.app/
 
 # Images
 
