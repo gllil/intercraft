@@ -10,6 +10,6 @@ https://intercraft-81c8a.web.app/
 
 # Images
 
-<img src="https://github.com/gllil/intercraft/blob/master/client/src/assets/images/intercraftHome.PNG">
-<img src="https://github.com/gllil/intercraft/blob/master/client/src/assets/images/intercraftServices.PNG">
-<img src="https://github.com/gllil/intercraft/blob/master/client/src/assets/images/intercraftContact.PNG">
+<img src="https://github.com/gllil/intercraft/blob/master/src/assets/images/intercraftHome.PNG">
+<img src="https://github.com/gllil/intercraft/blob/master/src/assets/images/intercraftServices.PNG">
+<img src="https://github.com/gllil/intercraft/blob/master/src/assets/images/intercraftContact.PNG">
